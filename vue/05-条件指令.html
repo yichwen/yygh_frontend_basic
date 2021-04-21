@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="app">
+    <input type="checkbox" v-model="ok"/>
+    <br>
+    <div v-if="ok">Picked</div>
+    <div v-else>No Pick</div>
+ </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      data: {
+        ok: false,
+      },
+    });
+ </script>
+</body>
