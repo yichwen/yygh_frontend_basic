@@ -49,3 +49,9 @@ Webpack是一个前端资源加载/打包工具。它将根据模块的依赖进
   - $ npm install -D style-loader css-loader
 - 创建css文件
   - e.g. see src/style.css and main.js
+
+
+git clone https://github.com/PanJiaChen/vue-admin-template/tree/v3.8.0
+
+$ npm install
+$ npm run dev
